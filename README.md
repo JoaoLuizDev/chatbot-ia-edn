@@ -89,24 +89,5 @@ aws configure
 
 Insira suas chaves de acesso AWS, região padrão e formato de saída padrão.
 
-#### 5. Logar no AWS Bedrock
-
-Para logar no AWS Bedrock, você precisará definir suas chaves de acesso como variáveis de ambiente:
-
-No Windows:
-
-```
-setx AWS_ACCESS_KEY_ID "YOUR_ACCESS_KEY_ID"
-setx AWS_SECRET_ACCESS_KEY "YOUR_SECRET_ACCESS_KEY"
-```
-
-No macOS/Linux:
-
-```
-export AWS_ACCESS_KEY_ID="YOUR_ACCESS_KEY_ID"
-export AWS_SECRET_ACCESS_KEY="YOUR_SECRET_ACCESS_KEY"
-```
-
-Certifique-se de substituir `"YOUR_ACCESS_KEY_ID"` e `"YOUR_SECRET_ACCESS_KEY"` pelas suas chaves de acesso reais.
 
 ## Pronto!
